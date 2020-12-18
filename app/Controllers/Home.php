@@ -32,9 +32,15 @@ class Home extends BaseController
 			foreach ($database as $key => $value) {
 				$file = $value['nama_foto'];
 				$file_path =  $path . $file;
-				$size = filesize($file_path);
+				if(file_exists($file_path)){
+					var_dump($size);
+					$file_list[] = array('name' => $file, 'size' => $size, 'path' => base_url('upload') . '/' . $file);
+				}else{
+					$file = 'not_found.png';
+					$size = filesize($path . $file);
+					$file_list[] = array('name' => $file, 'size' => $size, 'path' => base_url('upload').'/'.$file);
+				}
 
-				$file_list[] = array('name' => $file, 'size' => $size, 'path' => base_url('upload') . '/' . $file);
 			}
 
 			$data = [
@@ -62,8 +68,15 @@ class Home extends BaseController
 	{
 		$namafile = $this->fotoModel->select('nama_foto, id')->where('token', $token)->get()->getRowArray();
 
-		unlink(FCPATH . '/upload/' . $namafile['nama_foto']);
+		if(file_exists(FCPATH . '/upload/' . $namafile['nama_foto'])){
+			unlink(FCPATH . '/upload/' . $namafile['nama_foto']);
+			$delete = $this->fotoModel->delete($namafile['id']);
+		}
+	
 		$delete = $this->fotoModel->delete($namafile['id']);
+
+		
+		// unlink(FCPATH . '/upload/' . $namafile['nama_foto']);
 
 		if ($delete) {
 			$data['status'] = 200;
