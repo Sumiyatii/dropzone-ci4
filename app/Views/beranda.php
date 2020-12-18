@@ -82,7 +82,7 @@
                 })
                 myDropzone.on('addedfile', function(file) {
                     count_file += 1;
-                    // console.log(count_file);
+                    console.log(myDropzone.getAcceptedFiles().length);
                     if (count_file > 5) {
                         myDropzone.removeFile(file);
                         alert('limit 5 file');
