@@ -82,7 +82,8 @@
                 })
                 myDropzone.on('addedfile', function(file) {
                     count_file += 1;
-                    console.log(myDropzone.getAcceptedFiles().length);
+                    // console.log(myDropzone.files.length);
+                    // count_file = myDropzone.getAcceptedFiles().length;
                     if (count_file > 5) {
                         myDropzone.removeFile(file);
                         alert('limit 5 file');
@@ -113,13 +114,16 @@
                 })
 
                 myDropzone.on('removedfile', function(a) {
+                    count_file -= 1;
                     var token = a.token;
                     $.ajax({
                         url: '<?= base_url() ?>/' + token,
                         method: 'delete',
                         dataType: 'json',
                         success: function(data) {
-                            console.log(data);
+                            if(data['status']==200){
+                                alert('deleted successfully');
+                            }
                         }
                     })
                 })
