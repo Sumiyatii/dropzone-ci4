@@ -33,7 +33,7 @@ class Home extends BaseController
 				$file = $value['nama_foto'];
 				$file_path =  $path . $file;
 				if(file_exists($file_path)){
-					var_dump($size);
+					$size = filesize($path . $file);
 					$file_list[] = array('name' => $file, 'size' => $size, 'path' => base_url('upload') . '/' . $file);
 				}else{
 					$file = 'not_found.png';
