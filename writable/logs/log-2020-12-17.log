@@ -1,0 +1,347 @@
+CRITICAL - 2020-12-17 10:14:08 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(20): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->loadFoto()
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-17 10:14:21 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(20): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->loadFoto()
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-17 10:14:23 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(20): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->loadFoto()
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-17 11:30:07 --> Call to undefined method App\Models\Foto_model::getResultArray
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(36): CodeIgniter\Model->__call('getResultArray', Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('3')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-17 11:36:37 --> unlink(): http does not allow unlinking
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http ...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(42): unlink('http://localhos...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('4')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 11:36:56 --> unlink(): http does not allow unlinking
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http ...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(42): unlink('http://localhos...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('3')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 11:38:10 --> unlink(upload/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(upload/)...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(42): unlink('upload/')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('3')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 11:38:39 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\public\upload/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(42): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('3')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 11:38:59 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\public\upload): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(42): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('3')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 11:39:08 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\upload): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(42): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('3')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 11:41:53 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\uploadScreenshot_(5).png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(41): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('5')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 11:42:41 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\uploadScreenshot_(2).png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(41): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('2')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 11:43:19 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\uploadScreenshot_(1).png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(38): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('1')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 11:43:27 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\uploadScreenshot_(1).png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(38): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('1')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 11:58:09 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->process_upload()
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-17 11:58:23 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\upload/Screenshot_(1).png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(38): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('1')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 12:01:45 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->process_upload()
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-17 12:07:43 --> Allowed fields must be specified for model: App\Models\Foto_model
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Foto...')
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(62): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->process_upload()
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-17 12:08:26 --> Allowed fields must be specified for model: App\Models\Foto_model
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Foto...')
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(62): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->process_upload()
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-17 12:09:10 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->process_upload()
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-17 12:25:53 --> Undefined index: file
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->process_upload()
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-17 12:26:36 --> Undefined index: file
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->process_upload()
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-17 12:32:04 --> Undefined index: file
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->process_upload()
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-17 12:32:19 --> Undefined index: file
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->process_upload()
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-17 12:33:26 --> Undefined index: file
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->process_upload()
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-17 12:33:29 --> Undefined index: file
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->process_upload()
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-17 12:37:51 --> Allowed fields must be specified for model: App\Models\Foto_model
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Foto...')
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(67): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->process_upload()
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-17 12:50:00 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\upload/Screenshot_(1).png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(38): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('1')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 12:50:12 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\upload/Screenshot_(1).png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(38): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('1')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 12:50:13 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\upload/Patriot.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(38): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('6')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 12:50:23 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\upload/Capture.JPG): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(38): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('11')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 12:51:25 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\upload/Rani.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(38): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('7')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 12:51:40 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\upload/Capture.JPG): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(38): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('11')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 12:52:52 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\public\uploadCapture.JPG): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(38): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('11')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 12:54:32 --> unlink(../uploadCapture.JPG): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../uploa...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(38): unlink('../uploadCaptur...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('11')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 12:54:53 --> unlink(../upload/Capture.JPG): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../uploa...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(38): unlink('../upload/Captu...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('11')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 12:55:17 --> unlink(/upload/Capture.JPG): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/upload/...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(38): unlink('/upload/Capture...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('11')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 13:00:27 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\public\/upload/Ira.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(38): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('12')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-17 13:00:33 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\public\/upload/Ira.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(38): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('12')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
