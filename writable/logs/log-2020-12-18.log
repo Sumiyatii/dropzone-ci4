@@ -1239,3 +1239,156 @@ CRITICAL - 2020-12-18 10:49:19 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarte
 #5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
 #7 {main}
+CRITICAL - 2020-12-18 11:26:27 --> filesize(): stat failed for upload/14295064795fdce55a586da2.26621658.jpg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(35): filesize('upload/14295064...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->ambilFoto()
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-18 11:26:34 --> filesize(): stat failed for upload/14295064795fdce55a586da2.26621658.jpg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(35): filesize('upload/14295064...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->ambilFoto()
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-18 11:26:39 --> filesize(): stat failed for upload/14295064795fdce55a586da2.26621658.jpg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(35): filesize('upload/14295064...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->ambilFoto()
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-18 11:26:45 --> filesize(): stat failed for upload/14295064795fdce55a586da2.26621658.jpg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(35): filesize('upload/14295064...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->ambilFoto()
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-18 11:44:40 --> filesize(): stat failed for upload/4871717275fdce8bd499aa9.33636845.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(35): filesize('upload/48717172...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->ambilFoto()
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-18 11:45:58 --> filesize(): stat failed for upload/4871717275fdce8bd499aa9.33636845.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(35): filesize('upload/48717172...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->ambilFoto()
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-18 11:46:14 --> filesize(): stat failed for upload/4871717275fdce8bd499aa9.33636845.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(35): filesize('upload/48717172...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->ambilFoto()
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-18 11:46:34 --> filesize(): stat failed for upload/4871717275fdce8bd499aa9.33636845.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(35): filesize('upload/48717172...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->ambilFoto()
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-18 11:47:08 --> Call to undefined function App\Controllers\error()
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->ambilFoto()
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-18 11:50:21 --> filesize(): stat failed for upload/4871717275fdce8bd499aa9.33636845.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(35): filesize('upload/48717172...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->ambilFoto()
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-18 11:50:42 --> filesize(): stat failed for upload/4871717275fdce8bd499aa9.33636845.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(35): filesize('upload/48717172...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->ambilFoto()
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-18 11:50:51 --> filesize(): stat failed for upload/4871717275fdce8bd499aa9.33636845.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(35): filesize('upload/48717172...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->ambilFoto()
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-18 11:52:16 --> syntax error, unexpected 'var_dump' (T_STRING)
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-18 11:58:23 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\public\/upload/7580216345fdce95a8aa654.47540144.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(71): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('0.0372676045689...')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-18 11:59:44 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\public\/upload/7580216345fdce95a8aa654.47540144.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(71): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('0.0372676045689...')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-18 12:00:06 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\public\/upload/7580216345fdce95a8aa654.47540144.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(71): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('0.0372676045689...')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-18 12:00:42 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarter\public\/upload/7580216345fdce95a8aa654.47540144.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\app\Controllers\Home.php(71): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteFoto('0.0372676045689...')
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
