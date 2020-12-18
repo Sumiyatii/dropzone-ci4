@@ -1119,3 +1119,15 @@ CRITICAL - 2020-12-18 09:31:48 --> unlink(C:\xampp\htdocs\ci-dropzones\appstarte
 #5 C:\xampp\htdocs\ci-dropzones\appstarter\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
 #7 {main}
+CRITICAL - 2020-12-18 10:11:03 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(223): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#1 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(128): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#2 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CLI\Commands.php(100): CodeIgniter\Commands\Database\Migrate->run(Array)
+#3 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(107): CodeIgniter\CLI\Commands->run('migrate', Array)
+#4 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#5 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#6 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#7 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci-dropzones\appstarter\vendor\codeigniter4\framework\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci-dropzones\appstarter\spark(57): CodeIgniter\CLI\Console->run()
+#10 {main}
