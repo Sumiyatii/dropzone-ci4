@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.2/dropzone.min.css" integrity="sha512-3g+prZHHfmnvE1HBLwUnVuunaPOob7dpksI7/v6UnF/rnKGwHf/GdEq9K7iEN7qTtW+S0iivTcGpeTBqqB04wA==" crossorigin="anonymous" />">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/10.12.5/sweetalert2.min.css" integrity="sha512-EeZYT52DgUwGU45iNoywycYyJW/C2irAZhp2RZAA0X4KtgE4XbqUl9zXydANcIlEuF+BXpsooxzkPW081bqoBQ==" crossorigin="anonymous" />
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 
 
@@ -26,7 +26,11 @@
             <p class="lead">The file size limit to 2 MB, and files limit to 5</p>
 
 
-            <form action="<?= base_url('home/process_upload') ?>" class="dropzone"></form>
+            <form action="<?= base_url('home/process_upload') ?>" class="dropzone">
+                <div class="dz-message" style="text-align: center;">
+                    <i class="fas fa-cloud-upload-alt"></i> Klik disini atau drop file disini
+				</div>
+            </form>
 
         </div>
     </div>
@@ -37,6 +41,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.0/dropzone.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/10.12.5/sweetalert2.all.min.js" integrity="sha512-ni1CcMWuEjuosPllEebjhCTpybs/kqosQMI/gmoqz+xcSK+CtvWlJBgiqA0yinxbS5JvYOcfDTrJTZq0BmdmBQ==" crossorigin="anonymous"></script>
     <script>
         var count_file = 0;
         Dropzone.autoDiscover = false;
@@ -71,19 +76,9 @@
                     }
                 });
 
-                myDropzone.on('maxfilesreached', function(file) {
-                    alert("MAX_FILES_REACHED");
-                    myDropzone.removeFile(file);
-                })
-                myDropzone.on('maxfilesexceeded', function(file) {
-                    alert('maxfilesexceeded');
-                    myDropzone.removeFile(file);
-
-                })
+                
                 myDropzone.on('addedfile', function(file) {
                     count_file += 1;
-                    // console.log(myDropzone.files.length);
-                    // count_file = myDropzone.getAcceptedFiles().length;
                     if (count_file > 5) {
                         myDropzone.removeFile(file);
                         alert('limit 5 file');
@@ -122,7 +117,14 @@
                         dataType: 'json',
                         success: function(data) {
                             if(data['status']==200){
-                                alert('deleted successfully');
+                                Swal.fire({
+                                    toast: !0,
+                                    position: 'top-end',
+                                    icon: 'success',
+                                    title: 'Deleted Successfully',
+                                    showConfirmButton: false,
+                                    timer: 1500
+                                })
                             }
                         }
                     })
@@ -139,7 +141,6 @@
             acceptedFiles: "image/*",
             maxFilesize: 2,
             maxFiles: 5,
-
 
         });
         foto.on('addedfile', function() {
