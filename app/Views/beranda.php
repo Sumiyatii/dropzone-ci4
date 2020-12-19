@@ -31,6 +31,7 @@
                     <i class="fas fa-cloud-upload-alt"></i> Klik disini atau drop file disini
 				</div>
             </form>
+            <p class="lead">Mady by <a target="_blank" href="https://github.com/sumiyatii">Sumiyati</a></p>
 
         </div>
     </div>
